@@ -1,0 +1,35 @@
+Problem Statement: C4PC1.2 – Online Computer Quiz 
+ 
+An online, interschool computer quiz was organized by a community school.10 different schools 
+participated in the quiz. The quiz scores of all the schools are available. Perform the following 
+activities on the scores: 
+ 
+1. Find the school that has scored the highest. 
+2. Find the average score among the 10 schools. 
+ 
+Note: 
+• All the inputs (name of the school and the score attained) need to be taken from the user 
+and have to be stored in a string array. 
+• Later while finding the highest score, the quiz score needs to be converted into an integer. 
+• Use exception handling wherever required. 
+Hint: Handle InputMismatchException, NumberFormatException and 
+ArrayIndexOutOfBoundException. 
+ 
+Sample Input 
+ 
+String nameOfSchools[] = 
+{"DAV","RSK","Treamis","Candor","Oak","UAV","BCGS","BCBS","Baldwin","NPS"}; 
+ 
+String scores[] = {“86” , ”78” , “55” ,”6” ,”44” , “33” , “82” , “77” ,”8” ,”99”}; 
+ 
+ 
+Expected Output 
+The average score of 10 schools is: 56 
+The highest scorer in the quiz is: NPS with a score of: 99 
+ 
+ 
+Practice Challenge - Boilerplate URL - C4PC1.2 
+Please Note:  
+1.  There is no Boilerplate URL for this practice challenge 
+2. Create new repository named “C4PC1.2 Online Computer Quiz“ 
+3. Provide the access of the repository to the mentor for review
